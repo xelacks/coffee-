@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CoffeeApp</class>
+ <widget class="QMainWindow" name="CoffeeApp">
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="coffeeTable">
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Название сорта</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Степень обжарки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Молотый/в зернах</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Описание вкуса</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Цена</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Объем упаковки</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+</ui>
